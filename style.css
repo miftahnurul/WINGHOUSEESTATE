@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Silkscreen&display=swap');
+*,
+html,
+body {
+    font-family: 'Silkscreen', cursive;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header,
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #F8F3D4;
+    z-index: 1;
+    box-shadow: 0 7px 0 #F6416C;
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Silkscreen', sans-serif;
+    background-color: #00B8A9;
+}
+
+footer {
+    font-family: 'Silkscreen', cursive;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.brand {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #F6416C;
+}
+
+.fristname {
+    color: #F6416C;
+    font-weight: 700;
+}
+
+.lastname{
+    background: #F6416C;
+    color: #FFDE7D;
+    font-weight: 400;
+    padding-left: 4px;
+}
+
+.navigation {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #F6416C;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: gold;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+nav ul li img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Silkscreen', cursive;
+    color: #F6416C;
+}
+
+h2 {
+    font-family: 'Silkscreen', cursive;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #F6416C;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-gold {
+    background: #F6416C;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-gold:hover {
+    background: #FFDE7D;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.rumah-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambar-rumah {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.gambar-rumah img {
+    max-width: 88%;
+}
+
+#contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+.aside {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.aside-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Silkscreen', cursive;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #F6416C;
+    width: 100%;
+    line-height: 50px;
+}
+
+.aside img {
+    width: 20%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .brand {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .navigation {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .navigation ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .navigation ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .gambar-rumah {
+        width: 50%;
+    }
+}
